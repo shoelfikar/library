@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Airbnb Cereal App' ;
+    src: url(../font/Airbnb-Cereal-App/AirbnbCerealMedium.woff) format('woff');
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    font-family: 'Airbnb Cereal App';
+    justify-content: space-between;
+}
+.login-image h1 {
+    width: 808px;
+    height: 318px;
+    margin-left: 50px;
+    font-family: 'Airbnb Cereal App';
+    font-size: 64px;
+    line-height: 83px;
+    color: #F9F9F9;
+    position: absolute;
+    top: 56px;
+
+}
+    
+.login-image {
+    width: 880px;
+    height: 100vh;
+    background-image: url(../image/login/login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -300px;
+}
+.login-image p {
+    position: absolute;
+    top: 95%;
+    left: 29px;
+    color: white;
+}
+
+.login-form {
+    width: 350px;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+.login-form img {
+    margin-left: 280px;
+    width: 100px;
+    height: 100px;
+}
+.login-form .login h1 {
+    font-size: 64px;
+    font-family: 'Airbnb Cereal App';
+    line-height: 83px;
+    color: #424242;
+}
+.login-form .login p {
+    font-size: 17px;
+    font-family: 'Airbnb Cereal App';
+    line-height: 22px;
+    color: #424242;
+    margin-bottom: 30px;
+}
+input, a, label {
+    display: inline-block;
+}
+.button {
+    border: 2px solid black;
+    text-decoration: none;
+    color: #D0CCCC;
+    width: 110px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    margin-left: 5px;
+}
+
+.button:hover {
+    background-color: #000000;
+}
+.inputBox [type="text"],.inputBox [type="password"] {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.inputBox label {
+    font-size: 12px;
+    color: #D0CCCC;
+    position: absolute;
+}
+.label1 {
+    top: 265px;
+    left: 981px;
+}
+.label2 {
+    top: 319px;
+    left: 981px;
+}
+.check a, .check label {
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 7px;
+}
+.check a {
+   margin-left: 50px;
+   color:  #424242;
+}
+.check label {
+   color:#D0CCCC;
+}
+
+.footer p{
+    font-size: 17px;
+    line-height: 22px;
+    color: #D0CCCC;
+    box-sizing: border-box;
+}
+.footer .p2 {
+    color: #000000;
+}
+.footer span {
+    color: #D0CCCC;
+} 
+
+
+
+
+@media screen and (max-width:480px) {
+    .login-form img {
+        margin-left: 130px;
+        width: 100px;
+        height: 100px;
+    }
+    .login-image {
+        display: none;
+    }
+    .login h1,p {
+        text-align: center;
+    }
+    .inputBox [type="text"],.inputBox [type="password"] {
+        margin-left: 40px;
+    }
+    .check {
+        margin-left: 40px;
+    }
+    .button {
+        margin-left: 45px;
+        background-color: #000000; 
+    }
+    .button:hover {
+        background-color: #000000; 
+    }
+    .footer p {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

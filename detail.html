@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Buku</title>
+    <link rel="stylesheet" href="assets/css/detail.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <style>
+        html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cover">
+            <div class="back">
+                <a href="utama.html"><img src="assets/image/detail/Arrow.png" alt=""></a>     
+            </div>
+            <div class="link">
+                <a href="#popup-box">Edit</a>
+                <a href="#popup-hapus">Delete</a> 
+            </div> 
+        </div>
+        <div class="buku">
+            <img src="assets/image/detail/dilan.png" alt="">
+        </div>
+        <div class="deskripsi">
+            <a href="#">Novel</a>
+            <h1>DILAN 1990</h1> 
+            <span class="span">Available</span>
+            <p class="p1">30 Juni 2019</p>
+            <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac diam eget est rutrum ultrices. Donec laoreet enim a massa dapibus, cursus egestas dui pulvinar. Proin sit amet accumsan lectus. Nullam auctor auctor consequat. Donec semper magna erat, sed fringilla lacus pretium eget. Cras porttitor, nibh sit amet interdum bibendum, nibh velit accumsan tellus, vel vehicula tellus leo vitae ipsum. Praesent sit amet libero sed orci ullamcorper efficitur. Pellentesque in euismod purus, sit amet ultrices tortor. Vestibulum ante dui, tempor at dui id, tincidunt euismod diam. Integer pellentesque massa nibh, ac eleifend odio malesuada sed. Phasellus orci sem, cursus nec orci ut, accumsan facilisis lacus. Nullam at elementum nibh, ac gravida felis. In sagittis rhoncus nisi tempus dignissim. Sed fringilla consequat ante vitae lobortis. Cras posuere ligula vel enim suscipit malesuada. Vivamus non nulla ut ante imperdiet euismod quis nec massa.</p>
+        </div>
+        <a href="#" class="button">Borrow</a>
+        <!-- modal popup -->
+        <div id="popup-box" class="popup-form">
+            <div class="form">
+                <h1>Edit Data</h1>
+                <a href="#"class="close"><img src="assets/image/detail/close.png" alt=""></a>
+                <form action="">
+                    <label for="" class="l1">Url Image</label>
+                    <input type="text" placeholder="" value="http://gambar.com/dilan.jpg">
+                    <label for="" class="l2">Tittle</label>
+                    <input type="text" placeholder="" value="Dilan 1990">
+                    <label for="" class="l3">Description</label>
+                    <textarea name="" id="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac diam eget est rutrum ultrices. Donec laoreet enim a massa dapibus.</textarea>
+                </form>
+                <a href="#" class="simpan">Save</a>
+            </div> 
+        </div>
+        <!-- delete popup -->
+
+        <div class="container-close" id="popup-hapus">
+            <div class="close-form">
+                <a href="#"><img src="assets/image/detail/close.png" alt=""></a>
+                <img src="assets/image/detail/checked.png" alt="" class="checked">
+                <h2>Data <span>Dilan 1990</span> berhasil dihapus !</h2>
+            </div>
+        </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,428 @@
+@font-face {
+  font-family: 'Airbnb Cereal App';
+  src: url(../font/Airbnb-Cereal-App/AirbnbCerealMedium.woff) format('woff');
+}
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+.cover {
+    width: 100vw;
+    height: 454px;
+    background-image: url(../image/detail/covernya.png);
+    background-position: -75px 0;
+    background-repeat: no-repeat;
+    font-family: 'Airbnb Cereal App';
+    box-sizing: border-box;
+}
+.back {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 27px;
+    font-family: 'Airbnb Cereal App';
+}
+.link {
+   position: absolute;
+   top: 17px;
+   left: 1100px;
+   font-family: 'Airbnb Cereal App';
+}
+.link a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+    font-family: 'Airbnb Cereal App';
+    font-size: 30px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+.buku {
+    width: 200px;
+    height: 288px;
+    position: absolute;
+    top: 253px;
+    left: 1080px;
+    font-family: 'Airbnb Cereal App';
+}
+.cover img{
+    width: 20px;
+    height: 20px;
+    margin-left: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.deskripsi {
+    width: 740px;
+    margin-top: 20px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    font-family: 'Airbnb Cereal App';
+    position: relative;
+}
+.deskripsi a {
+    width: 95px;
+    height: 30px;
+    border: 2px solid #FBCC38;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+    background-color:#FBCC38 ;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.deskripsi h1 {
+    font-size: 50px;
+    line-height: 65px;
+    box-sizing: border-box;
+}
+.deskripsi .span {
+  font-size: 25px;
+  position: absolute;
+  top: 70px;
+  left: 630px;
+  color: #99D815;;
+}
+.deskripsi .p1 {
+    margin-bottom: 35px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.deskripsi .p2 {
+  font-family: 'Airbnb Cereal App';
+}
+.button {
+    width: 240px;
+    height: 54px;
+    border: 2px solid #FBCC38;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #FBCC38;
+    text-align: center;
+    line-height: 54px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 700px;
+    left: 1050px;
+    font-family: 'Airbnb Cereal App';
+}
+
+/* modal popup */
+
+.popup-form {
+  position: fixed;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  padding-top: 80px;
+  transition: .5s ease-in;
+  background-color: rgba(0, 0, 0 , 0);
+  font-family: 'Airbnb Cereal App';
+}
+.popup-form a {
+  display: block;
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+.popup-form input {
+  display: block;
+  margin: 20px auto;
+}
+
+.popup-form:target {
+  width: auto;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(196, 196, 196, 0.4);
+}
+.popup-form:target .form {
+  background-color: #fff;
+  opacity: 1;
+}
+.form {
+  width: 800px;
+  height: 500px;
+  border: 5px solid #fff;
+  margin:  auto;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #E5E5E5;
+  position: relative;
+  font-family: 'Airbnb Cereal App'; 
+}
+.form [type="text"] {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  margin-left: 200px;
+  font-family: 'Airbnb Cereal App';
+  font-size: 20px;
+  color: #C8BABA;
+}
+.form textarea {
+  height: 100px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-left: 200px;
+  margin-bottom: 30px;
+  font-family: 'Airbnb Cereal App';
+  font-size: 20px;
+  color: #C8BABA;
+}
+.form label {
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+}
+.form .l1 {
+  top: 120px;
+}
+.form .l2 {
+  top: 200px;
+}
+.form .l3 {
+  top: 300px;
+}
+.form h1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+.form .simpan {
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  font-size: 35px;
+  display: block;
+  border: 2px solid #F4CF5D;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 10px;
+  background-color: #F4CF5D;
+  color: white;
+  margin-left: 570px;
+}
+.close img {
+  width: 25px;
+  height: 25px;
+  margin-left: 410px;
+  position: absolute;
+  top: 10px;
+  font-family: 'Airbnb Cereal App';
+}
+
+
+/* css popup delete */
+
+.container-close {
+  position: fixed;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  padding-top: 80px;
+  transition: .5s ease-in;
+  background-color: rgba(0, 0, 0 , 0);
+  font-family: 'Airbnb Cereal App';
+}
+.close-form {
+  width: 450px;
+  height: 300px;
+  margin:  auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 30px auto;
+  box-sizing: border-box;
+  font-family: 'Airbnb Cereal App';
+}
+.container-close:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color:rgba(196, 196, 196, 0.4);
+  opacity: .9;
+}
+.close-form a img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 420px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.close-form .checked {
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  width: 70px;
+  height: 70px;
+}
+.close-form h2 {
+  text-align: center;
+  font-size: 20px;
+}
+.close-form h2 span {
+  font-weight: 900;
+}
+
+
+@media screen and (max-width:480px) {
+  .container {
+    width: auto;
+    height: 1300px;
+  }
+  .cover {
+    width: 500px;
+    height: 450px;
+    background-image: url(../image/detail/dilan.png);
+    background-size: cover;
+    background-position: -49px -25px;
+  }
+  .link {
+    position: absolute;
+    top: 17px;
+    left: 250px;
+    font-family: 'Airbnb Cereal App';
+ }
+ .link a{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 5px;
+  font-family: 'Airbnb Cereal App';
+  font-size: 20px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+.buku {
+  display: none;
+}
+.deskripsi {
+  width: 740px;
+  margin-top: 40px;
+  margin-left: 15px;
+  box-sizing: border-box;
+  font-family: 'Airbnb Cereal App';
+  position: relative;
+}
+.button {
+  width: 240px;
+  height: 54px;
+  border: 2px solid #FBCC38;
+  display: block;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #FBCC38;
+  text-align: center;
+  line-height: 54px;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 950px;
+  left: 70px;
+  font-family: 'Airbnb Cereal App';
+}
+.deskripsi .p2 {
+  font-size: 12px;
+  width: 350px;
+  height: 120px;
+  margin-right: 10px;
+  text-align: justify;
+  line-height: 15px;
+}
+.form {
+  width: 350px;
+  height: 450px;
+  position: relative;
+}
+.form [type="text"] {
+  width: 300px;
+  height: 20px;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.form textarea {
+  height: 90px;
+  width: 300px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.form label {
+  font-size: 12px;
+}
+.form .l1 {
+  top: 70px;
+}
+.form .l2 {
+  top: 140px;
+}
+.form .l3 {
+  top: 210px;
+}
+.form h1 {
+  font-size: 15px;
+}
+.close img {
+  width: 25px;
+  height: 25px;
+  margin-left:-50px;
+  position: absolute;
+  top: 10px;
+}
+.form .simpan {
+  width: 100px;
+  height: 40px;
+  margin-left: 0;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-left: 225px;
+}
+.close-form {
+  width: 350px;
+  height: 250px;
+}
+.close-form a img {
+  width: 20px;
+  height: 20px;
+  margin-left:315px;
+  margin-top: 40px;
+  padding-top: 15px;
+}
+.close-form .checked {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.deskripsi .span {
+  font-size: 15px;
+  top: 20px;
+  left: 282px;
+}
+}
